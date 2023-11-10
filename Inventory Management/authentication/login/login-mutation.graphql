@@ -1,0 +1,9 @@
+mutation ($input: userLogin){
+    loginMutation(input: $input){
+        user{
+            username : String!
+            password : String!
+        }
+    }
+    
+}

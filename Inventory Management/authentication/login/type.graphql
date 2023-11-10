@@ -1,0 +1,8 @@
+type userLogin{
+    username : String!
+    password : String!
+}
+ type Query{
+    username : String!
+    password : string!
+ }

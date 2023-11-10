@@ -1,0 +1,5 @@
+type registration {
+    username : String!
+    password : String!
+}
+

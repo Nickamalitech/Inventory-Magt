@@ -1,0 +1,8 @@
+mutation($input: registration!){
+     registerMutation (input: $input){
+        user{
+            username
+            password}
+     }
+}
+    
